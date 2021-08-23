@@ -61,7 +61,7 @@ class SmoothCheckBox : View, Checkable {
         mFloorColor = ta.getColor(R.styleable.SmoothCheckBox_color_unchecked_stroke, COLOR_FLOOR_UNCHECKED)
         mCheckedColor = ta.getColor(R.styleable.SmoothCheckBox_color_checked, COLOR_CHECKED)
         mUnCheckedColor = ta.getColor(R.styleable.SmoothCheckBox_color_unchecked, COLOR_UNCHECKED)
-        mStrokeWidth = ta.getDimensionPixelSize(R.styleable.SmoothCheckBox_stroke_width,
+        mStrokeWidth = ta.getDimensionPixelSize(R.styleable.SmoothCheckBox_droid_ninja_stroke_width,
                 dp2px(context, 0f))
         ta.recycle()
 
